@@ -63,3 +63,7 @@ alias snaps="ssh danielkramer@cmp4818.computers.nau.edu"
 alias cmp3101="ssh dkramer@cmp3101.computers.nau.edu"
 alias remotes='alias | grep "ssh "'
 ```
+
+## vim setup
+1. `vim ~/.vimrc`
+2. Add `:set number`
