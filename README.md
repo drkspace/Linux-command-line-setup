@@ -29,6 +29,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 ```
+6. Save and exit (`:wq`)
+6. Install zsh-autosuggestions by doing the following: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+7. Install the custom charater set `sudo apt-get install fonts-powerline`
 
 ## `.bash_profile` setup
 1. Copy the following into your `~/.bash_profile`
