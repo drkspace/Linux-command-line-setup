@@ -57,10 +57,6 @@ alias clean="sudo apt-get clean && sudo apt-get autoremove"
 alias fileexplorer="nautilus --browser ."
 alias c="clear"
 alias reload=". ~/.zshrc"
-alias weather="curl -m 1 wttr.in/Flagstaff?0qu"
-alias monsoon="ssh drk98@wind.hpc.nau.edu"
-alias snaps="ssh danielkramer@cmp4818.computers.nau.edu"
-alias cmp3101="ssh dkramer@cmp3101.computers.nau.edu"
 alias remotes='alias | grep "ssh "'
 ```
 
