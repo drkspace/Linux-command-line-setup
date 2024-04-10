@@ -9,3 +9,4 @@ alias fileexplorer="nautilus --browser ."
 alias c="clear"
 alias reload=". ~/.zshrc"
 alias remotes='alias | grep "ssh "'
+alias vim="nvim"
