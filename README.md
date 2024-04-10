@@ -38,7 +38,7 @@ rm nvim-linux64.tar.gz
 
 
 ## neovim setup
-1. `git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
+Whenever you first load neovim, it will download and install all of the pacakges and LSPs.
 
 ## ComicCodeNF
 I like the comic code font for programming. To install it:
@@ -78,8 +78,6 @@ pushd ~/.dotfiles
 rm ~/.bash_aliases ~/.bash_profile ~/.vimrc ~/.zshrc
 stow .
 popd
-
-git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 mkdir -p ~/.local/share/fonts/
 wget -O ~/.local/share/fonts/ComicMonoNF.ttf https://github.com/xtevenx/ComicMonoNF/raw/master/ComicMonoNF.ttf
