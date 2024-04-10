@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 #
 
 eval "$(/home/daniel/anaconda3/bin/conda shell.zsh hook)"
+export PATH="$PATH:/opt/nvim-linux64/bin"
