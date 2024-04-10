@@ -12,24 +12,7 @@
 2. Set the `ZSH_THEME` to `"agnoster"`
 3. Add the plugins: `plugins=(git zsh-autosuggestions copypath common-aliases command-not-found colored-man-pages tmux)`
 4. Load the bash profile: `source ~/.bash_profile`
-5. If conda is in use (remeber to change "USERNAME"): 
-```
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/USERNAME/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/USERNAME/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/USERNAME/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/USERNAME/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-```
-You mught want to do this instead `eval "$(/home/daniel/anaconda3/bin/conda shell.zsh hook)"`
+5. If conda is in use: `eval "$(/home/daniel/anaconda3/bin/conda shell.zsh hook)"`
 6. Save and exit (`:wq`)
 6. Install zsh-autosuggestions by doing the following: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 7. Install the custom charater set `sudo apt-get install fonts-powerline`
@@ -38,7 +21,6 @@ You mught want to do this instead `eval "$(/home/daniel/anaconda3/bin/conda shel
 1. Copy the following into your `~/.bash_profile`
 ```
 neofetch
-curl -s -m .25 "wttr.in/Flagstaff?0qu"
 
 if [ -f ~/.bash_aliases ]; then
    . ~/.bash_aliases
