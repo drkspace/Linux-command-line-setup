@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 
-eval "$(/home/daniel/anaconda3/bin/conda shell.zsh hook)"
+eval "$($HOME/anaconda3/bin/conda shell.zsh hook)"
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
 if [ -f ~/.bash_profile ]; then
