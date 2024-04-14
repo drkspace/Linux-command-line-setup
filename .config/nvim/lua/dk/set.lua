@@ -23,3 +23,5 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
+vim.keymap.set("n", "-", "<cmd>foldclose<CR>",{desc = "Close code fold"})
+vim.keymap.set("n", "=", "<cmd>foldopen<CR>",{desc = "Open code fold"})
