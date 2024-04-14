@@ -22,6 +22,7 @@ rm nvim-linux64.tar.gz
 **The change of the shell won't take effect until you logout and log back in**
 
 4. Install zsh-autosuggestions by doing the following: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+5. Install zsh highlighing: `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 
 ## git setup
 1. `git config --global user.email "drkspace@gmail.com"`
