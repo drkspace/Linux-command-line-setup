@@ -79,6 +79,8 @@ rm ~/.bash_aliases ~/.bash_profile ~/.vimrc ~/.zshrc
 stow .
 popd
 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 mkdir -p ~/.local/share/fonts/
 wget -O ~/.local/share/fonts/ComicMonoNF.ttf https://github.com/xtevenx/ComicMonoNF/raw/master/ComicMonoNF.ttf
 wget -O ~/.local/share/fonts/ComicMonoNF-Bold.ttf https://github.com/xtevenx/ComicMonoNF/raw/master/ComicMonoNF-Bold.ttf
