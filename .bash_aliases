@@ -10,3 +10,11 @@ alias c="clear"
 alias reload=". ~/.zshrc"
 alias remotes='alias | grep "ssh "'
 alias vim="nvim"
+alias fix-dd="sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0"
+alias dd-fix="sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0"
+tmpd (){
+    cd $(mktemp -d)
+}
+tempd (){
+    tmpd
+}
